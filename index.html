@@ -12,7 +12,7 @@
     <!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">-->
 
-    <title>Sadowscy Stomatologia</title>
+    <title>DentalSadowscy</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@
     </script>
 
     <!-- Custom Fonts from Google -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -50,6 +50,7 @@
             $('#link-logo').click(function () { $.scrollTo($('#main-page'), 400); })
             $('#link-about').click(function () { $.scrollTo($('#about'), 400); })
             $('#link-offer').click(function () { $.scrollTo($('#offer'), 400); })
+            $('#link-pricelist').click(function () { $.scrollTo($('#pricelist'), 400); })
             $('#button-offer').click(function () { $.scrollTo($('#offer'), 400); })
             $('#link-contact').click(function () { $.scrollTo($('#contact'), 400); })    
         });
@@ -71,7 +72,7 @@
                 </button>
                 <a class="navbar-brand" id="link-logo" href="#">
                 	<span class="glyphicon glyphicon-apple"></span> 
-                	TOBIASZ SADOWSKI
+                	DentalSadowscy
                 </a>
             </div>
             <!-- Navbar links -->
@@ -81,19 +82,27 @@
                         <a id="link-main" href="#">Strona główna</a>
                     </li>
                     <li>
-                        <a id="link-about" href="#">O Nas</a>
+                        <a id="link-contact" href="#">Kontakt</a>
                     </li>
                     <li>
                         <a id="link-offer" href="#">Oferta</a>
                     </li>
                     <li>
-                        <a id="link-quote" target="blank" href="/documents/Zapytanie%20ofertowe.pdf">Zapytanie Ofertowe</a>
+                        <a id="link-pricelist" href="#">Cennik</a>
                     </li>
-                    <!--<li>
-                        <a id="link-quote" target="blank" href="subpages/zapytanie-ofertowe.html">Zapytanie Ofertowe</a>
-                    </li>-->
                     <li>
-                        <a id="link-contact" href="#">Kontakt</a>
+                        <a id="link-about" href="#">O Nas</a>
+                    </li>
+                    <li>
+                        <!-- <a id="link-quote" target="blank" href="/documents/Zapytanie%20ofertowe.pdf">Zapytanie Ofertowe</a> -->
+                        <!-- <a class="dropdown-toggle my-dropdown" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Fundusze Unijne
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <a id="link-quote" class="dropdown-item my-dropdown__link" target="blank" href="/documents/Zapytanie%20ofertowe.pdf">Zapytanie Ofertowe</a>
+                            <a id="link-result" class="dropdown-item my-dropdown__link" target="blank" href="/documents/wyniki-postepowania.pdf">Wynik Postępowania</a>
+                            <a id="link-research" class="dropdown-item my-dropdown__link" target="blank" href="/documents/rozeznanie-rynku.pdf">Rozeznanie rynku</a>
+                        </div> -->
                     </li>
                 </ul>
                 
@@ -105,7 +114,7 @@
     <header id="main-page">
         <div class="header-content">
             <div class="header-content-inner wow fadeInDown animated">
-                <div class="wow bounce animated" data-wow-delay="1.5s">
+                <div class="wow animated" data-wow-delay="1.5s">
                     <h1>Witamy w naszej praktyce</h1>
                     <p>Swobodny i zdrowy uśmiech to marzenie wielu ludzi. Zaufaj doświadczeniu i solidnej wiedzy.</p>
                     <a id="button-offer" href="#" class="btn btn-primary btn-lg">Oferta</a>
@@ -114,17 +123,26 @@
         </div>
     </header>
 
-	<!-- Intro Section -->
-    <section id="about" class="intro">
+	<!-- Contact Section -->
+    <section id="contact" class="intro">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                	<span class="glyphicon glyphicon-apple wow fadeInDown animated" style="font-size: 60px"></span>
-                    <h2 class="section-heading">O nas</h2>
-                    <p class="text-light">Od wielu lat specjalizujemy się w kompleksowym leczeniu protetycznym i implantologicznym nakierowanym na estetykę i całkowitą
-                    odbudowę funkcji zgryzu, a w stomatologii zachowawczej szczególny nacisk kładziemy na leczenie kanałowe
-                    pod mikroskopem. Pacjenci cenią sobie bezbolesne zabiegi wykonywane w pozycji leżącej przy użyciu komputerowego
-                    znieczulenia.</p>
+                    <h2 class="section-heading">Kontakt</h2>
+                    <p class="text-light">DENTAL SADOWSCY<br>Stomatologia Mikroskopowa<br>
+                    Ewa Sadowska - Specjalista Stomatologii Zachowawczej z Endodoncją<br>
+                    Tobiasz Sadowski - Specjalista Protetyki Stomatologicznej<br>
+                    ul. Kościuszki 92/7U, 10-555 Olsztyn</p>
+                    
+                    <p><span class="glyphicon glyphicon-earphone"></span><br>Recepcja<br>
+                    <a href="tel:605271336">Kom. 605 271 336</a><br>
+                    <a href="tel:895351717">Tel. 89&nbsp;535 17 17</a></p>
+                    <p><span class="glyphicon glyphicon-time"></span><br>Godziny otwarcia:<br>Pon. - Śr. od 9.00 do 19.00<br>Czw. - Pt. od 9.00 do 16.00</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span><br>tobiasz679@gmail.com</p>
+                    <p><span class="glyphicon glyphicon-earphone"></span><br>Ewa Sadowska<br>
+                    <a href="tel:502349900">Kom. 502 349 900</a><br><br>
+                    Tobiasz Sadowski<br>
+                    <a href="tel:502350060">Kom. 502 350 060</a></p>
                 </div>
             </div>
         </div>
@@ -134,7 +152,7 @@
     <section id="offer" class="content">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 wow slideInLeft">
+                <div class="col-sm-6">
                 	<h2 class="section-header">Oferta</h2>
                 	<p class="lead text-muted">Kompleksowe leczenie protetyczne obejmuje:
                         <ul>
@@ -155,7 +173,7 @@
                     </p>
                 </div>                
                 <div class="col-sm-6">
-                    <img class="img-responsive img-circle center-block wow slideInRight" src="images/smile.jpg" alt="">
+                    <img class="img-responsive img-circle center-block" src="images/smile.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -165,10 +183,10 @@
      <section class="content content-2">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 wow slideInLeft">
+                <div class="col-sm-6">
                     <img class="img-responsive img-circle center-block" src="images/treatment.jpg" alt="">
                 </div>            
-                <div class="col-sm-6 wow slideInRight">
+                <div class="col-sm-6">
                     <h2 class="section-header">Leczenie kanałowe</h2>
                     <p class="lead text-light">(endodontyczne) pod mikroskopem
                         <ul>
@@ -184,6 +202,286 @@
             </div>
         </div>
     </section>    
+
+    	<!-- Content 3 -->
+        <section id="offer" class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2 class="section-header">Nowość!</h2>
+                        <p class="lead text-muted">W naszej praktyce planujemy leczenia protetyczne i implantologiczne pod kontrolą tomografu <b>CBCT Orthophos SL 3D</b> w programie <b>Galileos Implant</b>.
+                            Dzięki cyfrowemu projektowaniu uśmiechu DSD i  użycia skanera wewnątrzustnego <b>CEREC Omnicam</b> z frezarką CAD/CAM możemy zaproponować 
+                            nowe innowacyjne cyfrowe usługi wykonywane <u>w ciągu jednej wizyty</u>:
+                            <ul>
+                                <li>Korony i mosty ceramiczne CEREC CAD/CAM</li>
+                                <li>Korony z nanoceramiki kompozytowej CEREC CAD/CAM</li>
+                                <li>Inlay, onlay CEREC CAD/CAM</li>
+                                <li>Licówki ceramiczne CEREC CAD/CAM</li>
+                                <li>Diagnostykę tomograficzną CBCT</li>
+                                <li>Chirurgię laserem SIROLaser Blue</li>
+                                <li>Leczenie laserowe periimplantitis</li>
+                                <li>Laserową biostymulację i wybielanie</li>
+                            </ul>
+                        </p>
+                    </div>                
+                    <div class="col-sm-6">
+                        <img class="img-responsive img-circle center-block" src="images/machine.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    	<!-- Content 4 -->
+        <section id="pricelist" class="content content-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="section-header">Cennik</h2>
+                        <p class="lead text-light">Konsultacje</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th style="width: 75%" scope="col">Nazwa usługi</th>
+                                  <th scope="col">Cena [zł]</th>
+                                </tr>
+                              </thead>
+                            <tbody> 
+                                <tr>
+                                    <td>Konsultacja endodontyczna</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>Konsultacja protetyczna</td>
+                                    <td>200</td>
+                                </tr>
+                            </tbody>
+                        </table>     
+                        <p class="lead text-light">Liceówki, Korony, Protezy i Inne</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th style="width: 75%" scope="col">Nazwa usługi</th>
+                                  <th scope="col">Cena [zł]</th>
+                                </tr>
+                              </thead>
+                            <tbody> 
+                                <tr>
+                                    <td>Wypełnienie</td>
+                                    <td>350-600</td>
+                                </tr>
+                                <tr>
+                                    <td>Wypełnienie w zębie mlecznym</td>
+                                    <td>300</td>
+                                </tr>
+                                <tr>
+                                    <td>Licówka kompozytowa</td>
+                                    <td>700</td>
+                                </tr>
+                                <tr>
+                                    <td>Licówka ceramiczna</td>
+                                    <td>2100</td>
+                                </tr>
+                                <tr>
+                                    <td>Korona na metalu</td>
+                                    <td>1700</td>
+                                </tr>
+                                <tr>
+                                    <td>Korona pełnoceramiczna</td>
+                                    <td>2100</td>
+                                </tr>
+                                <tr>
+                                    <td>Korona CEREC w odc. bocznym (4,5,6,7)</td>
+                                    <td>1700</td>
+                                </tr>
+                                <tr>
+                                    <td>Korona CEREC w odc. przednim</td>
+                                    <td>2100</td>
+                                </tr>
+                                <tr>
+                                    <td>Nakład ceramiczny (inlay/onlay)</td>
+                                    <td>1500</td>
+                                </tr>
+                                <tr>
+                                    <td>Endokorona</td>
+                                    <td>1500</td>
+                                </tr>
+                                <tr>
+                                    <td>Korona tymczasowa</td>
+                                    <td>250</td>
+                                </tr>
+                                <tr>
+                                    <td>Wkład K-K</td>
+                                    <td>600</td>
+                                </tr>
+                                <tr>
+                                    <td>Usunięcie starej korony</td>
+                                    <td>300</td>
+                                </tr>
+                                <tr>
+                                    <td>Powtórne zacementowanie korony</td>
+                                    <td>300</td>
+                                </tr>
+                                <tr>
+                                    <td>Proteza akrylowa</td>
+                                    <td>2500</td>
+                                </tr>
+                                <tr>
+                                    <td>Proteza szkieletowa</td>
+                                    <td>3500</td>
+                                </tr>
+                                <tr>
+                                    <td>Proteza akronowa</td>
+                                    <td>3500</td>
+                                </tr>
+                                <tr>
+                                    <td>Naprawa protezy</td>
+                                    <td>300-600</td>
+                                </tr>
+                                <tr>
+                                    <td>Szyna relaksacyjna</td>
+                                    <td>1200</td>
+                                </tr>
+                                <tr>
+                                    <td>Wizyta kontrolna przy szynie relaksacyjnej</td>
+                                    <td>250</td>
+                                </tr>
+                                <tr>
+                                    <td>Ekstrakcja</td>
+                                    <td>500</td>
+                                </tr>
+                                <tr>
+                                    <td>Zamknięcie zatoki</td>
+                                    <td>250-350</td>
+                                </tr>
+                                <tr>
+                                    <td>Ekstrakcja 8 dolnej</td>
+                                    <td>800</td>
+                                </tr>
+                                <tr>
+                                    <td>Ekstrakcja 8 górnej</td>
+                                    <td>600</td>
+                                </tr>
+                                <tr>
+                                    <td>Odbudowa wyrostka, PRF</td>
+                                    <td>300-600</td>
+                                </tr>
+                                <tr>
+                                    <td>Implant</td>
+                                    <td>3000</td>
+                                </tr>
+                                <tr>
+                                    <td>Korona na implancie</td>
+                                    <td>3000</td>
+                                </tr>
+                                <tr>
+                                    <td>Skaling</td>
+                                    <td>350</td>
+                                </tr>
+                                <tr>
+                                    <td>Reecall</td>
+                                    <td>100</td>
+                                </tr>
+                                <tr>
+                                    <td>Pierwsza pomoc (zatrucie, ekstyrpacja)</td>
+                                    <td>350</td>
+                                </tr>
+                            </tbody>
+                        </table>  
+                        <p class="lead text-light">Leczenie kanałowe</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th style="width: 75%" scope="col">Nazwa usługi</th>
+                                  <th scope="col">Cena [zł]</th>
+                                </tr>
+                              </thead>
+                            <tbody> 
+                                <tr>
+                                    <td>Trzonowiec + wypełnienie</td>
+                                    <td>1600 + 300</td>
+                                </tr>
+                                <tr>
+                                    <td>Przedtrzonowiec + wypełnienie</td>
+                                    <td>1100 + 300</td>
+                                </tr>
+                                <tr>
+                                    <td>Siekacz + wypełnienie</td>
+                                    <td>800 + 300</td>
+                                </tr>
+                            </tbody>
+                        </table>    
+                        <p class="lead text-light">Reendo</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th style="width: 75%" scope="col">Nazwa usługi</th>
+                                  <th scope="col">Cena [zł]</th>
+                                </tr>
+                              </thead>
+                            <tbody> 
+                                <tr>
+                                    <td>Trzonowiec + wypełnienie</td>
+                                    <td>1800 + 300</td>
+                                </tr>
+                                <tr>
+                                    <td>Przedtrzonowiec + wypełnienie</td>
+                                    <td>1300 + 300</td>
+                                </tr>
+                                <tr>
+                                    <td>Siekacz + wypełnienie</td>
+                                    <td>1000 + 300</td>
+                                </tr>
+                                <tr>
+                                    <td>Leczenie kanału ze złamanym narzędziem - dodatkowo do ceny podstawowej</td>
+                                    <td>250</td>
+                                </tr>
+                            </tbody>
+                        </table>    
+                        <p class="lead text-light">Wybielanie</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th style="width: 75%" scope="col">Nazwa usługi</th>
+                                  <th scope="col">Cena [zł]</th>
+                                </tr>
+                              </thead>
+                            <tbody> 
+                                <tr>
+                                    <td>Wybielanie laserem - jedna wizyta</td>
+                                    <td>850</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="lead text-light">Zdjęcia</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th style="width: 75%" scope="col">Nazwa usługi</th>
+                                  <th scope="col">Cena [zł]</th>
+                                </tr>
+                              </thead>
+                            <tbody> 
+                                <tr>
+                                    <td>Panorama</td>
+                                    <td>130</td>
+                                </tr>
+                                <tr>
+                                    <td>RTG Punktowe</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr>
+                                    <td>Tomografia odcinkowa</td>
+                                    <td>180</td>
+                                </tr>
+                                <tr>
+                                    <td>Tomografia całkowita</td>
+                                    <td>300</td>
+                                </tr>
+                            </tbody>
+                        </table>    
+                </div>
+            </div>
+        </section>
 
     <!-- Promos -->
 	 <div class="container-fluid">
@@ -209,16 +507,14 @@
 	<!-- Footer -->
     <footer class="page-footer">
     
-    	<!-- Contact Us -->
-        <div id="contact" class="contact">
-        	<div class="container">
-				<h2 class="section-heading">Kontakt</h2>
-                <p>Specjalistyczna Praktyka Stomatologiczna<br>
-                Tobiasz Sadowski<br>
-                ul. Grunwaldzka 20/1, Olsztyn</p>
-                <p><span class="glyphicon glyphicon-time"></span><br>Godziny otwarcia:<br>Pon. - Czw. od 10.00 do 18.00<br>Pt. od 9.00 do 15.00</p>
-				<p><span class="glyphicon glyphicon-earphone"></span><br>Tel. 89 535 17 17<br>Kom. +48 502 350 060</p>
-				<p><span class="glyphicon glyphicon-envelope"></span><br>tobiasz-sadowski@wp.pl</p>
+    	<!-- About Us -->
+        <div id="about" class="contact">
+            <div class="container">
+				<h2 class="section-heading">O nas</h2>
+                <p>Od wielu lat specjalizujemy się w kompleksowym leczeniu protetycznym i implantologicznym nakierowanym na estetykę i całkowitą
+                odbudowa funkcji zgryzu, a w stomatologii zachowawczej szczególny nacisk kładziemy na leczenie kanałowe
+                pod mikroskopem. Pacjenci cenią sobie bezbolesne zabiegi wykonywane w pozycji leżącej przy użyciu komputerowego
+                znieczulenia.</p>
         	</div>
         </div>
         	
